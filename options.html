@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Horoscope Extension Settings</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Horoscope Extension Settings</h1>
+    <div id="options-form">
+      <label for="sign-select">Select your astrological sign:</label>
+      <select id="sign-select">
+        <option value="Aries" id="Aries">Aries</option>
+        <option value="Taurus" id="Taurus">Taurus</option>
+        <option value="Gemini" id=" Gemini">Gemini</option>
+        <option value="Cancer" id="Cancer">Cancer</option>
+        <option value="Leo" id="Leo">Leo</option>
+        <option value="Virgo" id="Virgo">Virgo</option>
+        <option value="Libra" id="Libra">Libra</option>
+        <option value="Scorpio" id="Scorpio">Scorpio</option>
+        <option value="Sagittarius" id="Sagittarius">Sagittarius</option>
+        <option value="Capricorn" id="Capricorn">Capricorn</option>
+        <option value="Aquarius" id="Aquarius">Aquarius</option>
+        <option value="Pisces" id="Pisces">Pisces</option>
+      </select>
+      <br>
+      <label for="openai-token">Input your OpenAI API Key (<a href="https://platform.openai.com/account/api-keys" target="_blank">get it here</a>):</label>
+      <br>
+      <input type="text" id="openai-token">
+    </input>
+      <br>
+      <button id="save-button">Save</button>
+    </body>
+  </div>
+
+  <p id="confirmation"></p>
+  
+  <script src="options.js"></script>
+</html>
